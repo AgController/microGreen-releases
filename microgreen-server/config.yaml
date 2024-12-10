@@ -1,6 +1,6 @@
 name: "microGreen Server"
 description: "Automate watering plants"
-version: "0.1.0-rc1"
+version: "0.1.0-rc3"
 slug: "microgreen-server"
 init: false
 ingress: true
@@ -15,4 +15,4 @@ arch:
   - armhf
   - armv7
   - i386
-image: mickmister/microgreen-server
+image: mickmister/{arch}-microgreen-server

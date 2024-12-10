@@ -19,6 +19,5 @@ yq -i ".\"add-ons\"[0].version = \"$NEW_VERSION\"" "$REPO_FILE"
 
 # Update config.yaml
 yq -i ".version = \"$NEW_VERSION\"" "$CONFIG_FILE"
-yq -i ".image = (.image | split(\":\")[0] + \":$NEW_VERSION\")" "$CONFIG_FILE"
 
 echo "Updated version to $1"
