@@ -1,0 +1,9 @@
+name: "microGreen Add-ons"
+url: "https://github.com/AgController/microGreen-releases"
+description: ""
+version: "0.1.0-rc1"
+add-ons:
+  - name: "microGreen Server"
+    slug: "microgreen-server"
+    description: "Automate watering plants"
+    version: "0.1.0-rc1"
