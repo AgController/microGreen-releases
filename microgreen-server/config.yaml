@@ -15,4 +15,4 @@ arch:
   - armhf
   - armv7
   - i386
-image: mickmister/microgreen-server:0.1.0-rc1
+image: mickmister/microgreen-server
